@@ -1,12 +1,9 @@
-```python
 import json
-```
-```python
+
 import requests
 from requests_toolbelt.multipart.encoder import MultipartEncoder
-```
 
-```python
+
 class PetFriends:
     def __init__(self):
         self.base_url = "https://petfriends1.herokuapp.com/"
@@ -94,4 +91,4 @@ class PetFriends:
         except json.decoder.JSONDecodeError:
             result = res.text
         return status, result
-```      
+    
