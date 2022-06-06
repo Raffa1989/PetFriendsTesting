@@ -1,3 +1,4 @@
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
@@ -14,3 +15,4 @@
     <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>
 </module>
+```
